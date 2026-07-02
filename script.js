@@ -28,8 +28,8 @@ function showCircle(status){
 }
 
 function startCountdown(onDone){
-  showCircle('\u23f3 Please wait...');
-  var s=30;var total=377;
+  showCircle('\u23f3 SABAR  KAR MADRCHOD.....');
+  var s=40;var total=377;
   numEl.textContent=s;
   arc.setAttribute('stroke','#6c47ff');
   arc.setAttribute('stroke-dashoffset','0');
@@ -103,7 +103,7 @@ function runFullBypass(){
 
 btn.onclick=function(){
   var val=inp.value.trim().toUpperCase();
-  if(val!=='DHRUVHU'){err.textContent='\u274c Wrong key! Access denied.';inp.value='';return;}
+  if(val!=='DHRUVHU'){err.textContent='\u274c PASWORD SHAI DAL! Access denied.';inp.value='';return;}
   err.textContent='';
   if(h.includes('tarviral.com')||h.includes('rodaemotor.com')){
     runFullBypass();
