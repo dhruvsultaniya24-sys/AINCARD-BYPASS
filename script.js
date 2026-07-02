@@ -29,7 +29,7 @@ function showCircle(status){
 
 function startCountdown(onDone){
   showCircle('\u23f3 Please wait...');
-  var s=20;var total=377;
+  var s=10;var total=377;
   numEl.textContent=s;
   arc.setAttribute('stroke','#6c47ff');
   arc.setAttribute('stroke-dashoffset','0');
